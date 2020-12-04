@@ -1,0 +1,165 @@
+
+/* --------Element Selectores------- */
+body{
+  margin:0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1{
+  margin: 50px auto 0 auto;
+
+  font-size: 5.62rem;
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+}
+
+h2{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
+}
+
+a{
+  margin: 30px;
+  color: #11999E;
+  text-decoration: none;
+}
+a:hover{
+  color: #1199EE;
+}
+
+hr {
+
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+
+/*----------Class Selectors--------*/
+.top-container{
+  background-color: #ecf4f3;
+  padding: 30px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 30%
+}
+
+.top-cloud{
+  position: relative;
+  left: 20%;
+}
+
+.subtitle{
+  line-height: 2;
+  font-weight: normal;
+}
+
+.profile-image{
+  width: 25%;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  padding: 50px;
+}
+
+.contact-me{
+  margin: 100px auto;
+}
+
+.bank-image{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.developer-image{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.banking-heading{
+  text-align: left;
+
+}
+
+.banking-description{
+  text-align: left;
+  line-height: 2;
+
+}
+
+.developer-heading{
+
+  clear: left;
+  text-align: left;
+}
+
+.developer-description{
+  clear: left;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
+  line-height: 2;
+}
+
+.btn-contact-me {
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   height: 7px;
+   line-height: 7px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   width: 140px;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #66BFBF;
+   -webkit-box-shadow: inset 1px 1px 20px 0 #66BFBF;
+   -moz-box-shadow: inset 1px 1px 20px 0 #66BFBF;
+   box-shadow: inset 1px 1px 20px 0 #66BFBF;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #66BFBF 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.middle-container{
+  margin: 100px 0 100px 0;
+}
+
+.bottom-container{
+  padding: 30px;
+  background-color: #ecf4f3;
+
+}
+
+.copyright{
+  font-size: .75rem;
+  color: brown;
+  margin-top: 30px;
+}
